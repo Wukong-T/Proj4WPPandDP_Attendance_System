@@ -1,0 +1,16 @@
+spring:
+
+ servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size: 50MB
+ 
+ datasource:
+   username: root 
+   password: 19961017ssw  #修改为自己的数据库密码
+   url: jdbc:mysql://localhost:3306/attendance?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+   driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  
+ port: 8181 
